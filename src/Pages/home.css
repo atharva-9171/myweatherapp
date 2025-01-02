@@ -1,0 +1,18 @@
+.weather-data {
+    display: flex;
+    justify-content: flex-start; /* Align items closely to the start of the container */
+    align-items: center; /* Align items vertically */
+    gap: 10px; /* Adjust spacing between items as needed */
+  }
+  
+  .weather-data .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align content within each column */
+  }
+  
+  .weather-data img {
+    width: 50px; /* Adjust image size as needed */
+    height: auto;
+  }
+  
