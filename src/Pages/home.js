@@ -19,7 +19,7 @@ function Home() {
       console.log(data);
       SetWeatherData({
         humidity: data.main.humidity,
-        temperature: Math.floor(data.main.temp),
+        temperature: data.main.temp,
         location: data.name,
         wind: data.wind.speed,
         icon1: data.weather[0].icon,
